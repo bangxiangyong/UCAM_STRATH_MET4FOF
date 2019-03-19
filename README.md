@@ -1,4 +1,4 @@
-# strath_MET4FOF
+# strath_UCAM_MET4FOF
 
 UCAM analysis of STRATH dataset for MET4FOF
 
