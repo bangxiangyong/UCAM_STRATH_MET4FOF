@@ -3,6 +3,7 @@
 UCAM analysis of STRATH dataset for MET4FOF
 
 ## Placement of dataset
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573861.svg)](https://doi.org/10.5281/zenodo.2573861)
 1. scope001-0080.csv dataset folder: ../EMPIR_Data/Data/AFRC Radial Forge - Historical Data
 2. CMMdataset.xlsx folder: ../EMPIR_Data/Data
 3. ScopeDataWithHeadings.xlsx folder: ../EMPIR_Data
