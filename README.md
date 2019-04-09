@@ -2,7 +2,7 @@
 
 UCAM analysis of STRATH dataset for MET4FOF
 
-##Data source 
+## Data source 
 Sensor data set radial forging at AFRC testbed
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573861.svg)](https://doi.org/10.5281/zenodo.2573861)
 
