@@ -6,10 +6,12 @@ UCAM analysis of STRATH-AFRC dataset for MET4FOF
 Sensor data set radial forging at AFRC testbed
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2573861.svg)](https://doi.org/10.5281/zenodo.2573861)
 
-**requires pytorch for ANN models
-
 ## Code information:
-1. loadFullSensorsData.py - load,preprocess,plots,pickling
-2. ANN.py - modeling, kfold, 
-3. BNN.py - same as above, but with uncertainty plots & quantification using dropout as Bayesian approx.
-4. time_segmentation.py - WIP
+1. 01-Load-Data.ipynb - Download & parse data into dataframes
+2. 02-Time-Segmentation.ipynb - Segment the sensor measurements into 3 phases : Heating, Transfer, Forging (and an additional Full which comprises of all 3 phases)
+3. 03-Feature-Extraction.ipynb - Extract features from time-series: Mean, Std, Kurtosis, Min, Max, Skewness,Sum,Median
+4. 04-BNN-Dropout.ipynb - Bayesian Neural Network using Dropout for modelling. Kfold validation and uncertainty quantification.
+
+## Note: 
+1. Thanks to Christos Tachtatzis & Yuhui Luo 
+2. Requires pytorch for ANN models
