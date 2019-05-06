@@ -1,6 +1,6 @@
-# strath_UCAM_MET4FOF
+# UCAM AFRC MET4FOF
 
-UCAM analysis of STRATH dataset for MET4FOF
+UCAM analysis of STRATH-AFRC dataset for MET4FOF
 
 ## Data source 
 Sensor data set radial forging at AFRC testbed
